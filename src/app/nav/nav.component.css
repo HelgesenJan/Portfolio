@@ -1,0 +1,30 @@
+nav{
+        display: flex;
+        background-color: rgb(24, 24, 24);
+        height: 80px;
+}
+
+a{
+        align-self: center;
+        color: rgb(156, 156, 156);
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+}
+
+ul{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        align-self: center;
+        list-style-type: none;
+}
+
+.active, li:hover a{
+        color: white;
+}
+
+.active{
+        border-bottom: 3px solid rgb(0, 174, 255);
+        padding-bottom: 15px;
+}

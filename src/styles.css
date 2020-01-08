@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+        font-family: ColfaxWebRegular;
+        src: url(assets/fonts/ColfaxWebRegular.woff) format("opentype");
+}
+
+@font-face {
+        font-family: ColfaxWebBold;
+        src: url(assets/fonts/ColfaxWebBold.woff) format("opentype");
+}
+
+*{
+        font-family: 'ColfaxWebBold';
+}
+
+body{
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        background: url("./assets/images/background.jpg") no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
